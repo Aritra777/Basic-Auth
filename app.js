@@ -1,6 +1,8 @@
 const express = require("express");
 require("dotenv").config();
+// For password hasing
 const bcrypt = require("bcryptjs");
+// JWT TOKEN
 const jwt = require("jsonwebtoken");
 const cookieParser = require('cookie-parser');
 const isAuth = require("./middleware/auth");
